@@ -1,0 +1,78 @@
+.box {
+
+  padding: 20px;
+  border-radius: 20px;
+  height: 28.5em;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+
+
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5em;
+  display: flex;
+}
+
+nav ul li {
+  justify-items: flex-end;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавна анимация */
+  border-radius: 10px; 
+}
+
+
+nav ul li a:hover {
+  color: #ece923; 
+}
+.text{
+  margin-top:9em ;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1em;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card {
+  border: .2em black solid;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 250px;
+}
+.footer {
+  margin: 0;
+  background-color: #2f09ed;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  width: auto;
+  height: 150px;
+  padding: 10px;
+  position: relative; /* Уверява се, че footer-ът не е фиксиран */
+  bottom: 0;
+  left: 0;
+  overflow: hidden; /* Предотвратява появата на скролбар */
+}
+body {
+  overflow-x: hidden; /* Скрива хоризонталния скролбар */
+}
